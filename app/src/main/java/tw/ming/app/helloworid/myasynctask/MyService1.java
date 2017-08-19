@@ -3,15 +3,13 @@ package tw.ming.app.helloworid.myasynctask;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.support.annotation.IntDef;
 import android.util.Log;
 
-/**
- * Created by Mac on 2017/8/19.
- */
 
 public class MyService1 extends Service{
     public MyService1() {
-        Log.i("ming", "MySrvice1()");
+        Log.i("ming","MyService1()");
     }
 
     @Override

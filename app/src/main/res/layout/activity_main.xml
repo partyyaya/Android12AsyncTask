@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="tw.ming.app.helloworid.myasynctask.MainActivity">
+    >
 
     <TextView
         android:id="@+id/tv"
@@ -24,18 +23,44 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test1"
-        android:onClick="test1"/>
+        android:onClick="test1"
+        android:text="Test 1"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test2"
-        android:onClick="test2"/>
+        android:onClick="test2"
+        android:text="Test 2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="test3"
+        android:text="Test 3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="test4"
+        android:text="Test 4"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test3"
-        android:onClick="test3"/>
+        android:onClick="test5"
+        android:text="Test 5"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="test6"
+        android:text="Test 6"
+        />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
